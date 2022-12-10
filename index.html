@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="header">
+        <img src="iitbhu.jpg">
+        <hr>
+        <p class="name">Mess Management Project (Prototype)</p>
+        <hr>
+        </div>
+        <center>
+            <h1>
+                All Respective Boys & Girls Messes & their menues will be hown here.<br>Steps:
+            </h1>
+            <ul>
+                <li>1. Choose to see which mess's menu you wannna see.</li>
+                <li>2. Select the mess where you wanna eat your breakfast/dinner/lunch.</li>
+                <li>3. Make your payment.</li>
+            </ul>
+            Select Mess:
+            <input>
+            </input>
+            <h6>*In actual project thete'll be a drop down menu here to select mess name.</h6>
+            <button onclick="document.getElementById(21).innerHTML='You will be eating at XYZ mess today'">Confirm Your Mess</button>
+            <i><p id="21"></p></i>
+            Select Amount to pay: <input></input>
+            <button onclick="alert('Do you wanna pay ₹X to XYZ mess.')">
+                OK
+            </button>
+            <br>
+            <br>
+            <button onclick="print()">Pay and Download Receipt</button>
+        </center>
+    </div>
+</body>
+</html>
